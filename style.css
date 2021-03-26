@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-ld {
+  color: #999;
+}
+
+.fs-smaller {
+  font-size: smaller;
+}
+
+.nav-link {
+  padding: 15px;
+  color: #333;
+  font-weight: 100;
+}
+
+.nav-link:hover {
+  color: rgb(46, 147, 187);
+}
+
+.list-unstyle {
+  border-left: 3px solid #333;
+}
+
+@media (max-width: 415px) {
+  .nav-link {
+    padding: 5px;
+  }
+}
