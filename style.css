@@ -24,8 +24,24 @@ body {
   border-left: 3px solid #333;
 }
 
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+  background: #999;
+}
+
+.color {
+  background: #fff;
+  margin: 0px 50px;
+}
+
 @media (max-width: 415px) {
   .nav-link {
     padding: 5px;
+  }
+
+  .color {
+    background: #fff;
+    margin: 0px 0px;
   }
 }
