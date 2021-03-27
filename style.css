@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 
 .text-blue {
@@ -74,6 +75,15 @@ body {
 
 .num h1 {
   font-size: 5rem;
+}
+
+.buy {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #edeef0;
+  background-image: url("http://be.beantownthemes.com/html/content/betheme/images/home_betheme_sectionbg2.png");
+  background-repeat: repeat-y;
+  background-position: center top;
 }
 @media (max-width: 415px) {
   .nav-link {
