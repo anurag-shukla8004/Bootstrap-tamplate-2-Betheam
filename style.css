@@ -2,6 +2,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.text-blue {
+  color: rgb(29, 140, 214);
+}
+
+.bg-blue {
+  background: rgb(29, 140, 214);
+}
+
 .text-ld {
   color: #999;
 }
@@ -35,13 +43,70 @@ body {
   margin: 0px 50px;
 }
 
+.number {
+  background: url("http://be.beantownthemes.com/html/content/betheme/images/home_betheme_sectionbg1.png")
+    no-repeat;
+  height: 35vh;
+  width: 100%;
+  background-position: center bottom;
+}
+
+.fs {
+  font-size: 6.5rem;
+  font-weight: bolder;
+}
+
+.fss {
+  font-size: 5rem;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+.plus {
+  font-size: 3.5rem;
+}
+
+.num h3 {
+  padding-bottom: 15px;
+  text-align: start;
+  font-size: 1.3rem;
+}
+
+.num h1 {
+  font-size: 5rem;
+}
 @media (max-width: 415px) {
   .nav-link {
     padding: 5px;
   }
 
+  .fs {
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 30px 40px 0px;
+  }
+
+  .fss {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 5px;
+  }
+
   .color {
     background: #fff;
     margin: 0px 0px;
+  }
+
+  .num h3 {
+    font-size: medium;
+    text-align: center;
+  }
+
+  .num h1 {
+    font-size: 3.1rem;
+  }
+
+  .num i {
+    font-size: 2rem;
   }
 }
