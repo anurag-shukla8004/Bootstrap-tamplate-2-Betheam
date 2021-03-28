@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
+  font-size: medium;
 }
 
 .text-blue {
@@ -33,6 +34,10 @@ body {
 
 .border-b {
   border-bottom: #555 1px solid;
+}
+
+.border-t {
+  border-top: #555 1px solid;
 }
 
 .nav-link {
@@ -118,6 +123,10 @@ body {
 .three {
   border-left: 2px solid #333;
   padding-left: 10px;
+}
+
+.desc {
+  border-right: rgb(29, 140, 214) 3px solid;
 }
 
 @media (max-width: 415px) {
