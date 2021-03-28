@@ -4,6 +4,28 @@ body {
   font-size: medium;
 }
 
+.main-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.sticky {
+  padding: 20px;
+  position: fixed;
+
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+.modal-backdrop {
+  position: relative;
+  background: #555;
+  opacity: 0.5;
+}
+
 .text-blue {
   color: rgb(29, 140, 214);
 }
@@ -66,11 +88,11 @@ body {
 }
 
 .number {
-  background: url("http://be.beantownthemes.com/html/content/betheme/images/home_betheme_sectionbg1.png")
+  background: url("./img/number/oliver-pecker-HONJP8DyiSM-unsplash.jpg")
     no-repeat;
-  height: 35vh;
+  height: 40vh;
   width: 100%;
-  background-position: center bottom;
+  background-position: center;
 }
 
 .fs {
@@ -178,5 +200,14 @@ body {
   .about-blog {
     font-size: 0.9rem;
     font-weight: lighter;
+  }
+
+  .sticky {
+    padding: 6px 6px 12px 12px;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 120px;
+    height: 40px;
   }
 }
