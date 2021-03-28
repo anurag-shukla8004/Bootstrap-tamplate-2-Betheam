@@ -19,6 +19,22 @@ body {
   font-size: smaller;
 }
 
+.bg-bl {
+  background: #252b3b;
+}
+
+.bg-bbl {
+  background: rgba(94, 87, 133, 0.1);
+}
+
+.text-bbl {
+  color: #999;
+}
+
+.border-b {
+  border-bottom: #555 1px solid;
+}
+
 .nav-link {
   padding: 15px;
   color: #333;
@@ -77,6 +93,10 @@ body {
   font-size: 5rem;
 }
 
+.use {
+  padding-left: 160px;
+}
+
 .buy {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -85,6 +105,21 @@ body {
   background-repeat: repeat-y;
   background-position: center top;
 }
+
+.theam {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #3e414c;
+  background-image: url(http://be.beantownthemes.com/html/content/betheme/images/home_betheme_sectionbg3.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.three {
+  border-left: 2px solid #333;
+  padding-left: 10px;
+}
+
 @media (max-width: 415px) {
   .nav-link {
     padding: 5px;
@@ -118,5 +153,21 @@ body {
 
   .num i {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 765px) {
+  .use {
+    padding-left: 0px;
+  }
+
+  .theam {
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .about-blog {
+    font-size: 0.9rem;
+    font-weight: lighter;
   }
 }
