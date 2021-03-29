@@ -58,6 +58,16 @@ body {
   background: rgb(7, 108, 167);
 }
 
+.nn {
+  color: rgb(37, 37, 37);
+  background: #fff;
+}
+
+.nn:hover {
+  background: rgb(37, 37, 37);
+  color: #fff;
+}
+
 .border-b {
   border-bottom: #555 1px solid;
 }
